@@ -12,7 +12,7 @@ function CustomNavbar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Link to='/'>Home</Link>
-            <Link to="/about">About</Link>
+            <Link to="/resturant">Resturant</Link>
             <Link to="/products">Products</Link>
           </Nav>
         </Navbar.Collapse>

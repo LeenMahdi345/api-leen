@@ -6,6 +6,7 @@ import Home from './components/home/Home.jsx'
 import About from './components/about/About.jsx'
 import {Routes,Route} from 'react-router-dom'
 import PageNotFound from './components/pageNotFound/PageNotFound.jsx'
+import Resturnat from './components/resturant/Resturnat.jsx'
 
 export default function App() {
   return (
@@ -14,7 +15,7 @@ export default function App() {
      <Routes>
       <Route path='/' element={<Home/>}/>
    <Route path='/products' element={ <Products />}/>
-   <Route path='/about' element={ <About />}/>
+   <Route path='/resturant' element={ <Resturnat />}/>
     <Route path='*' element={<PageNotFound/>}/>
      </Routes>
      <Footer />
